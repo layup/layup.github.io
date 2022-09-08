@@ -1,3 +1,25 @@
+@import "tailwindcss/base";
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600 cursor-pointer;
+}
+
+
+@import "tailwindcss/components";
+@import "./shared/components/component.css";
+
+@import "tailwindcss/utilities";
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

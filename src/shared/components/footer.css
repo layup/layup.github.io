@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footer_container{
+    @apply flex flex-row bg-orange-400 items-center justify-between;
+    @apply dark:bg-gray-800 bg-slate-200; 
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.footer_ul {
+    @apply flex-wrap bg-slate-200 text-gray-500 dark:text-gray-400 mt-3 mb-3 text-sm items-center
+}
+
+.footer_copy_right {
+    @apply text-sm text-gray-500 sm:text-center dark:text-gray-400
+}
+.footer_links {
+    @apply mr-4 hover:underline md:mr-6; 
+}

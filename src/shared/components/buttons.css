@@ -1,0 +1,8 @@
+
+.nav-button {
+    @apply text-gray-600 line-through rounded hover:bg-slate-200 hover:text-white cursor-pointer p-3;
+}
+
+.link-button {
+    @apply rounded bg-blue-500 text-white text-center p-2 m-1 w-96; 
+} 
