@@ -25,10 +25,10 @@ const ProjectItem = props => {
                         </div>
                         <div className=''>
                             <a 
-                                href={props.githubLink} 
+                                href={props.appLink} 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
-                                className="transition ease-in-out delay-150 place-content-center rounded text-center p-2 m-1 bg-blue-500 hover:bg-indigo-500 hover:-translate-y-1 hover:scale-110 duration-300 text-white"
+                                className="link-button hover:bg-indigo-500 hover:-translate-y-1 hover:scale-110 duration-300 "
                             >   
                                 View Website
                             </a>
