@@ -11,13 +11,13 @@ import './landing.css'
 
 const Landing = () => {
     return (
-        <div className='bg-split-white-grey py-5 h-screen'>
-            <div className="flex flex-col place-content-center rounded container mx-auto px-20 bg-slate-100 h-5/6 w-10/12 drop-shadow-xl ">
-                <div className="flex flex-row px-20 ">
+        <div className='bg-split-white-grey h-screen p-5 lg:px-0'>
+            <div className="flex flex-col place-content-center rounded container mx-auto h-5/6 bg-slate-100 drop-shadow-xl md:px-20 md:w-10/12  ">
+                <div className="flex flex-row px-4 lg:px-20 ">
                     {/* <img src={Tommy} alt='Tommy' className='max-w-sm p-4 rounded-full'/> */} 
                     <div className='flex flex-col place-content-center'>
        
-                        <p className='text-4xl font-semibold py-3 '>Hi, my name is <span className=' text-amber-600'> Tommy</span> 👋</p>
+                        <p className='text-2xl font-semibold py-3 md:text-4xl'>Hi, my name is <span className=' text-amber-600'> Tommy</span> 👋</p>
                         <p className='font-medium'>
                             I'm a fullstack developer based out of Victoria, Canada. I recently gradued from the University of 
                             Victoria with a Degree in Computer Science. I'm a developer who loves to solve real world problems with 

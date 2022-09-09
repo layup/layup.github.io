@@ -4,5 +4,5 @@
 }
 
 .link-button {
-    @apply rounded bg-blue-500 text-white text-center p-2 m-1 w-96; 
+    @apply rounded bg-blue-500 text-white text-center p-2 m-1 lg:w-96 ; 
 } 

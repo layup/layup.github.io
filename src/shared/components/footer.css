@@ -15,7 +15,7 @@
 }
 
 .footer_copy_right {
-    @apply text-sm text-gray-500 sm:text-center dark:text-gray-400
+    @apply text-xs text-gray-500 text-left dark:text-gray-400 md:text-sm
 }
 .footer_links {
     @apply mr-4 hover:underline md:mr-6; 
