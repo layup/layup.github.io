@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tommylay.com/static/css/main.f83b9a68.css",
-    "main.js": "/tommylay.com/static/js/main.28f01124.js",
-    "static/js/787.3aa68a5b.chunk.js": "/tommylay.com/static/js/787.3aa68a5b.chunk.js",
-    "static/media/places.png": "/tommylay.com/static/media/places.5c33e7f521ba57c84de4.png",
-    "static/media/slack.png": "/tommylay.com/static/media/slack.93b9fdf9bd7207510511.png",
-    "static/media/checkmark.png": "/tommylay.com/static/media/checkmark.3f117f717cec8ed13317.png",
-    "static/media/indecision.png": "/tommylay.com/static/media/indecision.3d99cf204d6ac15c7af1.png",
-    "static/media/resume.pdf": "/tommylay.com/static/media/resume.71ba9dbba9c9eac77ac1.pdf",
-    "static/media/logo-github.svg": "/tommylay.com/static/media/logo-github.080591513b1a3eb8fdfe0257830eaff1.svg",
-    "index.html": "/tommylay.com/index.html",
-    "static/media/logo-linkedin.svg": "/tommylay.com/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
-    "main.f83b9a68.css.map": "/tommylay.com/static/css/main.f83b9a68.css.map",
-    "main.28f01124.js.map": "/tommylay.com/static/js/main.28f01124.js.map",
-    "787.3aa68a5b.chunk.js.map": "/tommylay.com/static/js/787.3aa68a5b.chunk.js.map"
+    "main.css": "/static/css/main.f83b9a68.css",
+    "main.js": "/static/js/main.eb421d76.js",
+    "static/js/787.3aa68a5b.chunk.js": "/static/js/787.3aa68a5b.chunk.js",
+    "static/media/places.png": "/static/media/places.5c33e7f521ba57c84de4.png",
+    "static/media/slack.png": "/static/media/slack.93b9fdf9bd7207510511.png",
+    "static/media/checkmark.png": "/static/media/checkmark.3f117f717cec8ed13317.png",
+    "static/media/indecision.png": "/static/media/indecision.3d99cf204d6ac15c7af1.png",
+    "static/media/resume.pdf": "/static/media/resume.71ba9dbba9c9eac77ac1.pdf",
+    "static/media/logo-github.svg": "/static/media/logo-github.080591513b1a3eb8fdfe0257830eaff1.svg",
+    "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
+    "index.html": "/index.html",
+    "main.f83b9a68.css.map": "/static/css/main.f83b9a68.css.map",
+    "main.eb421d76.js.map": "/static/js/main.eb421d76.js.map",
+    "787.3aa68a5b.chunk.js.map": "/static/js/787.3aa68a5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f83b9a68.css",
-    "static/js/main.28f01124.js"
+    "static/js/main.eb421d76.js"
   ]
 }
