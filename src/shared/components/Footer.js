@@ -1,5 +1,7 @@
 import './footer.css'
 
+import pdf from '../../images/resume.pdf'
+
 const Footer = () => {
 
     return (
@@ -10,7 +12,7 @@ const Footer = () => {
                     <a href="https://github.com/layup" class="footer_links">Github</a>
                 </li>
                 <li>
-                    <a href="/" class="footer_links">Resume</a> 
+                    <a href={pdf} target='_blank' rel='noopener noreferrer' class="footer_links">Resume</a> 
                     
                 </li>
             </ul>
