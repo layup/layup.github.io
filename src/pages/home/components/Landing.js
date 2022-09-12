@@ -1,5 +1,5 @@
-
-import Tommy from '../../../images/profile.png'
+import TypeWriterEffect from 'react-typewriter-effect';
+//import Tommy from '../../../images/profile.png'
 import Technologies from '../../../shared/components/Technologies';
 
 import github_icon from '../../../images/icons/logo-github.svg'
@@ -18,6 +18,7 @@ const Landing = () => {
                     <div className='flex flex-col place-content-center'>
        
                         <p className='text-2xl font-semibold py-3 md:text-4xl'>Hi, my name is <span className=' text-amber-600'> Tommy</span> 👋</p>
+
                         <p className='font-medium'>
                             I'm a fullstack developer based out of Victoria, Canada. I recently gradued from the University of 
                             Victoria with a Degree in Computer Science. I'm a developer who loves to solve real world problems with 

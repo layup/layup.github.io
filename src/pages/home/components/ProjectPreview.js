@@ -8,9 +8,9 @@ import placesAppImage from '../../../images/places.png'
 const ProjectPreview = () => {
 
     return (
-        <div className="flex flex-col mx-auto bg-slate-200 ">
+        <div className="flex flex-col mx-auto bg-slate-200 pb-5">
             <div>
-                <h1 className="flex text-4xl font-extrabold place-content-center pb-5">Projects</h1>
+                <h1 className="flex text-4xl font-extrabold place-content-center pb-5 ">Projects</h1>
                 <ul />
 
                 <ProjectItem 
