@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d5eb800.css",
-    "main.js": "/static/js/main.5f0d6b73.js",
+    "main.css": "/static/css/main.9663cdf0.css",
+    "main.js": "/static/js/main.f7358800.js",
     "static/js/787.3aa68a5b.chunk.js": "/static/js/787.3aa68a5b.chunk.js",
     "static/media/places.png": "/static/media/places.5c33e7f521ba57c84de4.png",
-    "static/media/profile.png": "/static/media/profile.d8b67be73f71e6f37132.png",
     "static/media/slack.png": "/static/media/slack.93b9fdf9bd7207510511.png",
+    "static/media/checkmark.png": "/static/media/checkmark.3f117f717cec8ed13317.png",
     "static/media/indecision.png": "/static/media/indecision.3d99cf204d6ac15c7af1.png",
     "static/media/logo-github.svg": "/static/media/logo-github.080591513b1a3eb8fdfe0257830eaff1.svg",
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "index.html": "/index.html",
-    "main.8d5eb800.css.map": "/static/css/main.8d5eb800.css.map",
-    "main.5f0d6b73.js.map": "/static/js/main.5f0d6b73.js.map",
+    "main.9663cdf0.css.map": "/static/css/main.9663cdf0.css.map",
+    "main.f7358800.js.map": "/static/js/main.f7358800.js.map",
     "787.3aa68a5b.chunk.js.map": "/static/js/787.3aa68a5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d5eb800.css",
-    "static/js/main.5f0d6b73.js"
+    "static/css/main.9663cdf0.css",
+    "static/js/main.f7358800.js"
   ]
 }
