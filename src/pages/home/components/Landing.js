@@ -1,5 +1,5 @@
 import TypeWriterEffect from 'react-typewriter-effect';
-//import Tommy from '../../../images/profile.png'
+import Tommy from '../../../images/profile.png'
 import Technologies from '../../../shared/components/Technologies';
 
 import github_icon from '../../../images/icons/logo-github.svg'
@@ -14,7 +14,12 @@ const Landing = () => {
         <div className='bg-split-white-grey h-screen p-5 lg:px-0'>
             <div className="flex flex-col place-content-center rounded container mx-auto h-5/6 bg-slate-100 drop-shadow-xl md:px-20 md:w-10/12  ">
                 <div className="flex flex-row px-4 lg:px-20 ">
-                    {/* <img src={Tommy} alt='Tommy' className='max-w-sm p-4 rounded-full'/> */} 
+                    {/*
+                        <div className='p-4'>
+                            <img src={Tommy} alt='Tommy' className='h-32 rounded-full '/> 
+                        </div>
+                    */}
+                   
                     <div className='flex flex-col place-content-center'>
        
                         <p className='text-2xl font-semibold py-3 md:text-4xl'>Hi, my name is <span className=' text-amber-600'> Tommy</span> 👋</p>
@@ -24,6 +29,7 @@ const Landing = () => {
                             Victoria with a Degree in Computer Science. I'm a developer who loves to solve real world problems with 
                             awesome people. 
                         </p>
+                     
                         
                         <div className='flex py-4'>
                             <a href='https://github.com/layup' className='hover:'>
@@ -38,6 +44,7 @@ const Landing = () => {
 
                     
                     </div>
+                   
                 </div>
             </div>
         </div>

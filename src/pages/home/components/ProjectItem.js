@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
 
 import PlaceHolder from '../../../images/placeholder-image.png'
+import './Projectitem.css';
 
 const ProjectItem = props => {
 
+    const [visableComponent, setVisableComponent] = useState(false);
+
+    const myRef = useRef();
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries, observer) => {
+            const entry = entries[0];
+            if(entry.isIntersecting === true){
+                setVisableComponent(true);
+            }
+        });
+    
+        observer.observe(myRef.current);
+      }, []);
+
     return (
         <div>
-            <div className="flex justify-center p-5 mx-5 md:px-20 md:mx-auto 2xl:w-9/12">
-                <div className='flex flex-col h-full md:w-full px-5 2xl:flex-row 2xl:h-64 bg-slate-100 rounded-xl drop-shadow-md'>
+            <CSSTransition
+                in={visableComponent}
+                timeout={300}
+                classNames="my-node"
+            >
+            <div className="flex justify-center p-5 mx-5 md:px-20 md:mx-auto 2xl:w-9/12" ref={myRef}>
+                <div className='flex flex-col h-full p-5 md:w-full 2xl:flex-row 2xl:h-72 bg-slate-100 rounded-xl drop-shadow-md'>
                     <div className='flex justify-center self-center 2xl:h-60 2xl:w-96 py-2 2xl:py-0'>
                         {props.image ? 
-                            <img src={props.image} alt='temp' className='object-cover px-4 max-w-sm max-h-sm drop-shadow-md rounded-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-sky-700 lg:px-0'/> :
+                            <img src={props.image} alt='temp' className='object-cover px-4 max-w-sm max-h-sm drop-shadow-md rounded-md hover:-translate-y-1 hover:scale-110 duration-300 h lg:px-0'/> :
                             <img src={PlaceHolder} alt='temp' className='bg-white max-w-sm min-w-sm drop-shadow-md rounded'/> } 
                     </div>
                     <div className='flex flex-col justify-around px-5 py-1 w-full bg-slate-100 rounded-xl'>
@@ -48,6 +70,7 @@ const ProjectItem = props => {
                     </div>
                 </div>
             </div>
+            </CSSTransition>
         </div>
     )
 }
