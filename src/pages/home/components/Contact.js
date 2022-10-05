@@ -18,16 +18,18 @@ const Contact = () => {
 
     const DefaultForm = () => {
         return (
-            <div className="flex flex-col-reverse xl:flex-row place-content-center rounded-lg p-5">
+            <div className="flex flex-col-reverse 2xl:flex-row place-content-center rounded-lg p-5 md:w-8/12">
                 <form 
-                    className="flex flex-col md:px-16 xl:px-0 xl:w-6/12"
+                    className="flex flex-col basis-2/5 md:px-16 2xl:px-0 2xl:w-6/12 "
                     action={FORM_ENDPOINT}
                     onSubmit={handleSubmit}
                     method="POST"
                     target="_blank"
                 >
                     <div className="flex flex-col p-4">
-                        <label htmlFor="name">Your Name (Required) </label>
+                        <label htmlFor="name">
+                            <p className="font-medium">Your Name (Required) </p>
+                        </label>
                         <input 
                             type="text" 
                             name='name'
@@ -37,7 +39,9 @@ const Contact = () => {
                         />
                     </div>
                     <div className="flex flex-col p-4">
-                        <label>Your Email (Required) </label>
+                        <label>
+                            <p className="font-medium">Your Email (Required) </p>
+                        </label>
                         <input 
                             className="p-2" 
                             type="email" 
@@ -47,7 +51,9 @@ const Contact = () => {
                         />
                     </div>
                     <div className="flex flex-col p-4">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">
+                            <p className=" font-medium">Message</p>
+                        </label>
                         <textarea 
                             className="p-2" 
                             placeholder="Your message"
@@ -58,14 +64,14 @@ const Contact = () => {
                     </div>
                     <button 
                         type="submit" 
-                        className="mx-auto w-11/12 transition ease-in-out delay-150 place-content-center rounded text-center py-2 bg-blue-500 hover:bg-indigo-500 hover:-translate-y-1 hover:scale-110 duration-300 text-white"
+                        className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white cursor-pointer font-bold text-sm  py-2 my-2 mx-4 rounded-full basis-1/2 hover:-translate-y-1 hover:scale-110 duration-300"
                     >
                         Submit
                     </button>
                 </form>                
-                <div className="flex flex-col px-4 md:px-20">
-                    <h1 className="flex text-blue-500 font-semibold">Contact Me </h1>
-                    <p>I am happy to answer any questions you have. Just send me a message in the form with any question you may have  </p> 
+                <div className="flex flex-col px-4 md:px-20 2xl:px-10 basis-2/5 ">
+                    <h1 className="flex text-cyan-600 font-semibold">Contact Me </h1>
+                    <p className="text-grey-800">I am happy to answer any questions you have. Just send me a message in the form with any question you may have  </p> 
                 </div>
             </div>
 
@@ -73,7 +79,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="flex justify-center bg-slate-100 md:pt-10">
+        <div className="flex justify-center md:pt-10 bg-slate-200">
             {submitted ? 
                 <div className="grid grid-cols-1 justify-items-center p-5 mb-10">
                     <img
