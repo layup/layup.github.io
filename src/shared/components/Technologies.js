@@ -4,9 +4,9 @@ import TechItems from "./TechItems"
 
 const Technologies = () => {
     return (
-        <div className="py-2">
-            <p className="font-semibold text-xl py-2 text-center md:text-2xl md:text-left">Skills</p>
-            <div className="grid grid-cols-2 place-item place-items-center md:flex">
+        <div className="pb-2">
+            <p className="font-medium text-xl py-4 text-center md:text-2xl lg:text-left">Tech Stack</p>
+            <div className="grid grid-cols-2 place-item place-items-center  md:grid-cols-3 lg:flex">
                 <TechItems 
                     img_src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"
                     tech_name="ReactJS"

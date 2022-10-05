@@ -1,4 +1,4 @@
-import './footer.css'
+
 
 import pdf from '../../images/resume.pdf'
 

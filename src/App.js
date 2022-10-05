@@ -2,7 +2,7 @@ import React from 'react';
 
 import Navbar from './shared/components/Navbar'
 import Landing from './pages/home/components/Landing';
-import ProjectPreview from './pages/home/components/ProjectPreview';
+import Portfolio from './pages/home/components/Portfolio';
 import Footer from './shared/components/Footer';
 import Contact from './pages/home/components/Contact';
 //import About from './pages/home/components/About';
@@ -14,7 +14,7 @@ function App() {
     <div>
       <Navbar />
       <Landing/> 
-      <ProjectPreview />
+      <Portfolio />
       <Contact />
       <Footer />
     </div>
